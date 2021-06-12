@@ -1,0 +1,95 @@
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm 
+{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 1rem);
+    padding-left: var(--bs-gutter-x, 2rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-light .navbar-brand 
+{
+    color: white;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 30px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.bg-light {
+    background-color: black !important;
+}
+.navbar-light .navbar-toggler 
+{
+    color: white;
+    border-color: white;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: white;
+
+}
+.navbar-nav { 
+        margin-left: 80%;
+
+}
+a:hover
+{
+	background-color: green;
+	border: none;
+	 color: black;
+	 padding: 16px 32px;
+	 text-align: center;
+	 font-size: 20px;
+	 margin: 4px 2px;
+	 transition: 0.3s;
+}
+
+@media only screen and (max-width: 992px)
+{
+.navbar-nav
+{ 
+    margin-left: 35%;
+}
+}
+.nav-link 
+{
+    display: block;
+    padding: 1rem 1rem;
+    text-decoration: none;
+ }
+    
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+body 
+{
+padding-top: 100px;
+padding-left: 7px;
+background-image: url(../markus-spiske-iar-afB0QQw-unsplash.jpg);
+background-size: 100%;
+background-position: fixed;
+color: whitesmoke;
+font-size: 20px;
+}
+h1
+{
+	font-weight: bold;
+	font-size: 40px;
+	font-style: inherit;
+	font-family: Monaco, Monospace;
+}
+h2
+{
+    font-weight: bold;
+	font-size: 30px;
+	font-style: inherit;
+	font-family: Monaco, Monospace;	
+}

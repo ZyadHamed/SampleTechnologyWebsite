@@ -1,0 +1,119 @@
+.container 
+{
+    height: 100%;
+    margin-top: 10px;
+}
+html, body 
+{
+    height: 100%;
+    min-height: 100%;
+}
+
+.img1 {
+    height: 100%;
+    width: 100%;
+}
+
+#btnNext1 
+{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    transition-duration: 0.5s;
+    background-color: green;
+    color: whitesmoke;
+}
+
+ #btnNext1:hover 
+ {
+    background-color: forestgreen;
+ }
+
+.Welcomescreen {
+    text-align: center;
+    transition: 2s ease-in-out;
+}
+
+#FirstNameScreen, #LastNameScreen, #EmailScreen, #PasswordScreen , #EndingScreen{
+    animation: fadeIn ease 1s;
+    height: 100%;
+}
+
+.form-control
+{
+    position: absolute;
+    top: 50%;
+}
+label 
+{
+    position: absolute;
+    top: 40%;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+    .img1 
+    {
+        display: none;
+    }
+
+    #containerdiv {
+        position: absolute;
+        height: 45%;
+    }
+
+    .form-control {
+        position: relative;
+        top: 30%;
+    }
+
+    label {
+        position: relative;
+        top: 30%;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+
+    #imgcontainerdiv {
+        position: absolute;
+        height: 35%;
+
+    }
+
+    #containerdiv {
+        position: absolute;
+        height: 35%;
+        width: 100%;
+        right: 0px;
+    }
+
+    .form-control {
+        position: relative;
+        top: 30%;
+    }
+
+    label {
+        position: relative;
+        top: 30%;
+    }
+}
